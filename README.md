@@ -1,3 +1,1 @@
-# Tutorial
-
-This is my tutorial repository.
+Just take what you need, all I ask is some credit when you use it.
