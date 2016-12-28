@@ -1,0 +1,28 @@
+respawn = "BASE";
+respawndelay = 5;
+onLoadMission= "DayZ Namalsk";
+OnLoadIntro = "Welcome to Namalsk";
+OnLoadIntroTime = False;
+OnLoadMissionTime = False;
+disabledAI = true;
+disableChannels[] = {0,2,6};
+enableItemsDropping = 0;
+onPauseScript = "";
+briefing = 0;
+debriefing = 0;
+
+loadScreen = "\z\addons\dayz_code\gui\loadingscreen.paa";
+
+class Header
+{
+	gameType = COOP;			//DM, Team, Coop, ...
+	minPlayers = 1;				//Min # of players the mission supports
+	maxPlayers = 100;			//Max # of players the mission supports
+};
+
+aiKills = 1;
+diagRadio = 1;
+diagHit = 1;
+
+#include "\z\addons\dayz_code\gui\description.hpp"
+#include "namalsk\loot\CfgLoot\CfgLoot.hpp"
